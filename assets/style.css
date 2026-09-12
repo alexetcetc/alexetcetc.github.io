@@ -1,5 +1,11 @@
 /* Deliberately almost nothing. */
 
+:root {
+  /* Tells the browser this page is intentionally light, so an OS or
+     browser-level "force dark" doesn't override our explicit colours. */
+  color-scheme: light;
+}
+
 body {
   max-width: 60em;
   margin: 2em;
@@ -27,7 +33,7 @@ dialog#contact {
   border: none;
   border-radius: 4px;
   padding: 2em;
-  max-width: 24em;
+  max-width: 34em;
   width: 90%;
   background: #FBFAF8;
   color: #16150F;
@@ -50,7 +56,8 @@ dialog#contact label {
 dialog#contact input,
 dialog#contact textarea {
   font: inherit;
-  padding: 0.4em;
+  font-size: 1.1em;
+  padding: 0.6em 0.75em;
   border: 1px solid #999;
   border-radius: 3px;
   background: #fff;
@@ -59,7 +66,7 @@ dialog#contact textarea {
 
 dialog#contact textarea {
   resize: vertical;
-  min-height: 5em;
+  min-height: 10em;
 }
 
 dialog#contact .actions {
