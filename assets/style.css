@@ -25,8 +25,13 @@ body {
   padding: 0;
   font: inherit;
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
   cursor: pointer;
+}
+
+.contact-trigger:hover {
+  border-bottom-style: solid;
 }
 
 dialog#contact {
@@ -62,6 +67,8 @@ dialog#contact textarea {
   border-radius: 3px;
   background: #fff;
   color: #16150F;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 dialog#contact textarea {
