@@ -67,8 +67,6 @@ dialog#contact textarea {
   border-radius: 3px;
   background: #fff;
   color: #16150F;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 dialog#contact textarea {
