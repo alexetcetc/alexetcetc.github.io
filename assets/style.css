@@ -43,8 +43,18 @@ dialog#contact {
   padding: 2em;
   max-width: 48em;
   width: 90%;
+  box-sizing: border-box;
   background: #FBFAF8;
   color: #16150F;
+}
+
+@media (max-width: 30em) {
+  dialog#contact {
+    padding: 1.25em;
+    width: calc(100% - 2em);
+    max-width: none;
+    margin: 1em;
+  }
 }
 
 dialog#contact::backdrop {
@@ -63,6 +73,8 @@ dialog#contact label {
 
 dialog#contact input,
 dialog#contact textarea {
+  width: 100%;
+  box-sizing: border-box;
   font: inherit;
   font-size: 1.1em;
   padding: 0.6em 0.75em;
