@@ -11,15 +11,13 @@ body {
   margin: 2em;
   padding: 4em;
   font-size: 1.1em;
+  background: #B893AC;
+  color: #16150F; /* kept dark on purpose */
 }
 
 h1 {
   font-size: 1.7em; /* browser default is ~2em; this is 15% smaller */
   font-style: italic; /* the one small touch — a tilt, not a costume change */
-}
-
-.stanza p {
-  margin: 0;
 }
 
 /* Contact modal */
